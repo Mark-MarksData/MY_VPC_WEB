@@ -10,19 +10,21 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
 
-// Mobile hamburger toggle
+// Mobile hamburger toggle with aria-expanded
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 if (hamburger && navLinks) {
   hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
+    const isOpen = hamburger.classList.toggle('active');
     navLinks.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen);
   });
   // Close menu when a link is tapped
   navLinks.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       hamburger.classList.remove('active');
       navLinks.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
     });
   });
 }
@@ -50,3 +52,25 @@ document.querySelectorAll('.card').forEach((card) => {
     card.style.transform = '';
   });
 });
+
+// Back-to-top button
+const backToTop = document.querySelector('.back-to-top');
+if (backToTop) {
+  window.addEventListener('scroll', () => {
+    backToTop.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+// Contact form — inline success message
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    contactForm.style.display = 'none';
+    const successMsg = document.querySelector('.form-success');
+    if (successMsg) successMsg.classList.add('show');
+  });
+}
