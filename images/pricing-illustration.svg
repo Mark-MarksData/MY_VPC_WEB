@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <!-- Background -->
+  <circle cx="200" cy="100" r="80" fill="#8b5cf6" opacity=".05"/>
+  <!-- Price tags -->
+  <rect x="40" y="40" width="90" height="130" rx="12" fill="#fff" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="52" y="56" width="40" height="6" rx="3" fill="#38bdf8" opacity=".4"/>
+  <text x="85" y="100" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="#2563eb">$29</text>
+  <text x="85" y="116" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">/month</text>
+  <rect x="60" y="128" width="50" height="16" rx="8" fill="#38bdf8" opacity=".15"/>
+  <rect x="68" y="134" width="34" height="4" rx="2" fill="#38bdf8"/>
+
+  <rect x="155" y="28" width="90" height="145" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="168" y="36" width="20" height="8" rx="4" fill="#2563eb"/>
+  <rect x="167" y="52" width="40" height="6" rx="3" fill="#2563eb" opacity=".4"/>
+  <text x="200" y="92" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="700" fill="#2563eb">$79</text>
+  <text x="200" y="108" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">/month</text>
+  <rect x="175" y="122" width="50" height="16" rx="8" fill="#2563eb" opacity=".15"/>
+  <rect x="183" y="128" width="34" height="4" rx="2" fill="#2563eb"/>
+  <path d="M180 143l5 5 10-10" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="270" y="40" width="90" height="130" rx="12" fill="#fff" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="282" y="56" width="40" height="6" rx="3" fill="#8b5cf6" opacity=".4"/>
+  <text x="315" y="100" text-anchor="middle" font-family="system-ui" font-size="22" font-weight="700" fill="#8b5cf6">$149</text>
+  <text x="315" y="116" text-anchor="middle" font-family="system-ui" font-size="9" fill="#94a3b8">/month</text>
+  <rect x="290" y="128" width="50" height="16" rx="8" fill="#8b5cf6" opacity=".15"/>
+  <rect x="298" y="134" width="34" height="4" rx="2" fill="#8b5cf6"/>
+
+  <!-- Star decoration -->
+  <circle cx="375" cy="40" r="6" fill="#f97316" opacity=".2"/>
+  <circle cx="25" cy="160" r="8" fill="#38bdf8" opacity=".15"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" fill="none">
+  <!-- Decorative background shapes -->
+  <ellipse cx="500" cy="100" rx="120" ry="80" fill="#2563eb" opacity=".07"/>
+  <ellipse cx="100" cy="140" rx="80" ry="50" fill="#8b5cf6" opacity=".07"/>
+  <!-- Dashboard illustration -->
+  <rect x="180" y="30" width="240" height="140" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="192" y="48" width="60" height="8" rx="4" fill="#2563eb" opacity=".3"/>
+  <rect x="192" y="62" width="40" height="6" rx="3" fill="#e2e8f0"/>
+  <!-- Chart bars -->
+  <rect x="200" y="100" width="20" height="50" rx="4" fill="#2563eb" opacity=".8"/>
+  <rect x="228" y="85" width="20" height="65" rx="4" fill="#38bdf8" opacity=".8"/>
+  <rect x="256" y="110" width="20" height="40" rx="4" fill="#10b981" opacity=".8"/>
+  <rect x="284" y="78" width="20" height="72" rx="4" fill="#f97316" opacity=".8"/>
+  <rect x="312" y="90" width="20" height="60" rx="4" fill="#8b5cf6" opacity=".8"/>
+  <!-- Side cards -->
+  <rect x="350" y="80" width="55" height="30" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+  <rect x="358" y="88" width="30" height="4" rx="2" fill="#2563eb" opacity=".4"/>
+  <rect x="358" y="96" width="20" height="4" rx="2" fill="#e2e8f0"/>
+  <rect x="350" y="116" width="55" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+  <rect x="358" y="124" width="30" height="4" rx="2" fill="#10b981" opacity=".4"/>
+  <rect x="358" y="132" width="20" height="4" rx="2" fill="#e2e8f0"/>
+  <!-- Floating elements -->
+  <circle cx="150" cy="60" r="16" fill="#38bdf8" opacity=".15"/>
+  <circle cx="460" cy="50" r="12" fill="#f97316" opacity=".15"/>
+  <circle cx="470" cy="160" r="20" fill="#8b5cf6" opacity=".1"/>
+  <!-- Connecting dots -->
+  <circle cx="150" cy="60" r="4" fill="#38bdf8"/>
+  <circle cx="460" cy="50" r="3" fill="#f97316"/>
+  <path d="M166 60h14" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <path d="M420 50h37" stroke="#f97316" stroke-width="1.5" stroke-dasharray="3 2"/>
+</svg>
