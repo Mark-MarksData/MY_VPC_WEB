@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://orange-river-0f3b19610.2.azurestaticapps.net/sitemap.xml
